@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 91">
+  <rect width="71" height="91" fill="#0A0A0A"/>
+  <!-- Row 0 -->
+  <rect x="0"  y="0"  width="9" height="9" fill="#FFFFFF"/>
+  <rect x="10" y="0"  width="9" height="9" fill="#FFFFFF"/>
+  <rect x="20" y="0"  width="9" height="9" fill="#FFFFFF"/>
+  <rect x="30" y="0"  width="9" height="9" fill="#FFFFFF"/>
+  <rect x="40" y="0"  width="9" height="9" fill="#FFFFFF"/>
+  <rect x="50" y="0"  width="9" height="9" fill="#FF5C1A"/>
+  <rect x="60" y="0"  width="9" height="9" fill="#FF5C1A"/>
+  <!-- Row 1 -->
+  <rect x="0"  y="10" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="10" y="10" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="20" y="10" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="30" y="10" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="40" y="10" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="50" y="10" width="9" height="9" fill="#FF5C1A"/>
+  <rect x="60" y="10" width="9" height="9" fill="#FF5C1A"/>
+  <!-- Row 2 -->
+  <rect x="0"  y="20" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="10" y="20" width="9" height="9" fill="#FFFFFF"/>
+  <!-- Row 3 -->
+  <rect x="0"  y="30" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="10" y="30" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="20" y="30" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="30" y="30" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="40" y="30" width="9" height="9" fill="#FF5C1A"/>
+  <!-- Row 4 -->
+  <rect x="0"  y="40" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="10" y="40" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="20" y="40" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="30" y="40" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="40" y="40" width="9" height="9" fill="#FF5C1A"/>
+  <!-- Row 5 -->
+  <rect x="0"  y="50" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="10" y="50" width="9" height="9" fill="#FFFFFF"/>
+  <!-- Row 6 -->
+  <rect x="0"  y="60" width="9" height="9" fill="#FFFFFF"/>
+  <rect x="10" y="60" width="9" height="9" fill="#FFFFFF"/>
+  <!-- Row 7 -->
+  <rect x="0"  y="70" width="9" height="9" fill="#FF5C1A"/>
+  <rect x="10" y="70" width="9" height="9" fill="#FF5C1A"/>
+  <!-- Row 8 -->
+  <rect x="0"  y="80" width="9" height="9" fill="#FF5C1A"/>
+  <rect x="10" y="80" width="9" height="9" fill="#FF5C1A"/>
+</svg>
