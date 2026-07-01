@@ -138,10 +138,61 @@
   ]
   </script>
 
-  <!-- ═══ FONTS ══════════════════════════════════════════════════ -->
+  <!-- ═══ FAQ SCHEMA ═══════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Combien coûte un site web au Maroc avec Fabrik212 ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un site vitrine est à partir de 1 999 MAD, une landing page à 1 499 MAD, un e-commerce à partir de 5 000 MAD. Tous les prix sont fixés en MAD, sans surprise."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dans quelles villes du Maroc travaille Fabrik212 ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Basée à Casablanca, Fabrik212 travaille avec des clients dans tout le Maroc — Rabat, Marrakech, Tanger, Agadir, Fès — à 100% en distanciel via WhatsApp et Zoom."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quel est le délai de livraison d'un projet chez Fabrik212 ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Landing page : 24h. Site vitrine : 3 à 7 jours. E-commerce : 2 à 3 semaines. Application web sur mesure : 4 à 8 semaines. On annonce un délai et on le tient."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Est-ce que Fabrik212 s'occupe du SEO ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui. Chaque site est livré avec un SEO de base (balises, canonical, sitemap, mobile-first). Nous proposons aussi un accompagnement SEO mensuel avec audit gratuit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment se passe le paiement et la communication ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Communication 100% WhatsApp. Paiement en MAD par virement ou en plusieurs fois selon le projet. Pas de réunions inutiles — on avance vite et on livre."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ═══ FONTS (non-blocking) ════════════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" /></noscript>
   <style>
     /* ─── VARIABLES ─────────────────────────────────────────── */
     :root {
@@ -716,6 +767,15 @@
       .hero-display { letter-spacing: -1.5px; }
       .footer-top { flex-direction: column; }
     }
+
+    /* ─── FAQ SECTION ────────────────────────────────────────── */
+    .faq-section { padding: 5rem 2rem; max-width: 800px; margin: 0 auto; }
+    .faq-section .faq-list { margin-top: 2rem; }
+    .faq-section .faq-item { border-bottom: 1px solid var(--border, rgba(255,255,255,0.08)); padding: 1.5rem 0; }
+    .faq-section .faq-item:first-child { border-top: 1px solid var(--border, rgba(255,255,255,0.08)); }
+    .faq-section .faq-q { font-size: 1rem; font-weight: 700; margin-bottom: 0.6rem; color: var(--white, #fff); }
+    .faq-section .faq-a { font-size: 0.95rem; color: var(--grey2, #aaa); margin: 0; line-height: 1.6; }
+    .faq-section .faq-a a { color: var(--orange, #FF5C1A); }
   </style>
 </head>
 <body>
@@ -820,7 +880,7 @@
     <div class="carousel-track-wrap">
       <div class="carousel-track">
         <a href="https://www.mysensehub.com/" target="_blank" rel="noopener" class="proj-card">
-          <img src="https://api.microlink.io/?url=https%3A%2F%2Fwww.mysensehub.com%2F&screenshot=true&meta=false&embed=screenshot.url" alt="MySenseHub — Application web" loading="lazy" />
+          <img src="https://api.microlink.io/?url=https%3A%2F%2Fwww.mysensehub.com%2F&screenshot=true&meta=false&embed=screenshot.url&screenshot.width=1164&screenshot.height=728&screenshot.type=jpeg&screenshot.quality=80" alt="MySenseHub — Application web" loading="lazy" decoding="async" width="582" height="364" />
           <div class="proj-overlay">
             <div class="proj-name">MySenseHub</div>
             <div class="proj-type">Application web</div>
@@ -828,7 +888,7 @@
           </div>
         </a>
         <a href="https://isamundo.com" target="_blank" rel="noopener" class="proj-card">
-          <img src="https://api.microlink.io/?url=https%3A%2F%2Fisamundo.com&screenshot=true&meta=false&embed=screenshot.url" alt="Isamundo — Site vitrine" loading="lazy" />
+          <img src="https://api.microlink.io/?url=https%3A%2F%2Fisamundo.com&screenshot=true&meta=false&embed=screenshot.url&screenshot.width=1164&screenshot.height=728&screenshot.type=jpeg&screenshot.quality=80" alt="Isamundo — Site vitrine" loading="lazy" decoding="async" width="582" height="364" />
           <div class="proj-overlay">
             <div class="proj-name">Isamundo</div>
             <div class="proj-type">Site vitrine</div>
@@ -836,7 +896,7 @@
           </div>
         </a>
         <a href="https://rankify-restaurant-hub.vercel.app/" target="_blank" rel="noopener" class="proj-card">
-          <img src="https://api.microlink.io/?url=https%3A%2F%2Frankify-restaurant-hub.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url" alt="Rankify — Web App Restaurant" loading="lazy" />
+          <img src="https://api.microlink.io/?url=https%3A%2F%2Frankify-restaurant-hub.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&screenshot.width=1164&screenshot.height=728&screenshot.type=jpeg&screenshot.quality=80" alt="Rankify — Web App Restaurant" loading="lazy" decoding="async" width="582" height="364" />
           <div class="proj-overlay">
             <div class="proj-name">Rankify</div>
             <div class="proj-type">Web App · Restaurant</div>
@@ -845,7 +905,7 @@
         </a>
         <!-- Duplicates for infinite loop -->
         <a href="https://www.mysensehub.com/" target="_blank" rel="noopener" class="proj-card">
-          <img src="https://api.microlink.io/?url=https%3A%2F%2Fwww.mysensehub.com%2F&screenshot=true&meta=false&embed=screenshot.url" alt="MySenseHub — Application web" loading="lazy" />
+          <img src="https://api.microlink.io/?url=https%3A%2F%2Fwww.mysensehub.com%2F&screenshot=true&meta=false&embed=screenshot.url&screenshot.width=1164&screenshot.height=728&screenshot.type=jpeg&screenshot.quality=80" alt="MySenseHub — Application web" loading="lazy" decoding="async" width="582" height="364" />
           <div class="proj-overlay">
             <div class="proj-name">MySenseHub</div>
             <div class="proj-type">Application web</div>
@@ -853,7 +913,7 @@
           </div>
         </a>
         <a href="https://isamundo.com" target="_blank" rel="noopener" class="proj-card">
-          <img src="https://api.microlink.io/?url=https%3A%2F%2Fisamundo.com&screenshot=true&meta=false&embed=screenshot.url" alt="Isamundo — Site vitrine" loading="lazy" />
+          <img src="https://api.microlink.io/?url=https%3A%2F%2Fisamundo.com&screenshot=true&meta=false&embed=screenshot.url&screenshot.width=1164&screenshot.height=728&screenshot.type=jpeg&screenshot.quality=80" alt="Isamundo — Site vitrine" loading="lazy" decoding="async" width="582" height="364" />
           <div class="proj-overlay">
             <div class="proj-name">Isamundo</div>
             <div class="proj-type">Site vitrine</div>
@@ -861,7 +921,7 @@
           </div>
         </a>
         <a href="https://rankify-restaurant-hub.vercel.app/" target="_blank" rel="noopener" class="proj-card">
-          <img src="https://api.microlink.io/?url=https%3A%2F%2Frankify-restaurant-hub.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url" alt="Rankify — Web App Restaurant" loading="lazy" />
+          <img src="https://api.microlink.io/?url=https%3A%2F%2Frankify-restaurant-hub.vercel.app%2F&screenshot=true&meta=false&embed=screenshot.url&screenshot.width=1164&screenshot.height=728&screenshot.type=jpeg&screenshot.quality=80" alt="Rankify — Web App Restaurant" loading="lazy" decoding="async" width="582" height="364" />
           <div class="proj-overlay">
             <div class="proj-name">Rankify</div>
             <div class="proj-type">Web App · Restaurant</div>
@@ -1051,6 +1111,34 @@
         <div class="why-icon"><svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
         <h4>Orienté résultats</h4>
         <p>On ne livre pas juste un site. On livre un outil qui génère des leads et du chiffre.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section" aria-labelledby="faq-title">
+    <div class="section-label">Questions fréquentes</div>
+    <h2 id="faq-title" class="section-title">Vos questions sur <em>Fabrik212</em></h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3 class="faq-q">Combien coûte un site web au Maroc avec Fabrik212 ?</h3>
+        <p class="faq-a">Un site vitrine est à partir de 1 999 MAD, une landing page à 1 499 MAD, un e-commerce à partir de 5 000 MAD. Tous les prix sont fixés en MAD, sans surprise. <a href="creation-site-internet-maroc.html">Voir le détail des tarifs →</a></p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q">Dans quelles villes du Maroc travaille Fabrik212 ?</h3>
+        <p class="faq-a">Basée à Casablanca, Fabrik212 travaille avec des clients dans tout le Maroc — Rabat, Marrakech, Tanger, Agadir, Fès — à 100% en distanciel via WhatsApp et Zoom.</p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q">Quel est le délai de livraison d'un projet chez Fabrik212 ?</h3>
+        <p class="faq-a">Landing page : 24h. Site vitrine : 3 à 7 jours. E-commerce : 2 à 3 semaines. Application web sur mesure : 4 à 8 semaines. On annonce un délai et on le tient.</p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q">Est-ce que Fabrik212 s'occupe du SEO ?</h3>
+        <p class="faq-a">Oui. Chaque site est livré avec un SEO de base (balises, canonical, sitemap, mobile-first). On propose aussi un <a href="seo-maroc.html">accompagnement SEO mensuel</a> avec audit gratuit.</p>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q">Comment se passe le paiement et la communication ?</h3>
+        <p class="faq-a">Communication 100% WhatsApp. Paiement en MAD par virement ou en plusieurs fois selon le projet. Pas de réunions inutiles — on avance vite et on livre.</p>
       </div>
     </div>
   </section>
